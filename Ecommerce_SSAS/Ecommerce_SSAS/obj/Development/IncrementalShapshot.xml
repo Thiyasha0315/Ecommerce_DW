@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Ecommerce_SSAS</Database>
+    <Server>HP\SECOND</Server>
+    <ConnectionString>Data Source=HP\SECOND;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>p3omhYb5ZQrxAlkDDw3kz3S8XPg=5/2/2025 12:54:10 PM5/1/2025 10:26:25 PM</TimeStamp>
+        <ID>
+          <String>Eccomerce OLTP DW_DS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Cmf+YYEX2Fb5paEutpZ2vuYFW94=5/2/2025 10:48:38 PM5/1/2025 10:30:53 PM</TimeStamp>
+        <ID>
+          <String>Eccomerce OLTP DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>I9fYq11S3Ce9dEIewcIPRjIiMcY=5/2/2025 12:28:34 PM5/2/2025 12:27:07 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3kTtkO+jT+WdnIKM2Najzq+V59c=5/2/2025 12:32:25 PM5/2/2025 12:27:07 PM</TimeStamp>
+        <ID>
+          <String>Dim Supplier</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fsc9SEvQ3WKLAHTKECVrenjVwS0=5/2/2025 3:09:26 PM5/2/2025 12:27:07 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NK9ogeIWkRgc2gNr2hkeYE/1tbI=5/2/2025 12:27:07 PM5/2/2025 12:27:07 PM</TimeStamp>
+        <ID>
+          <String>Fact Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>AcnDt07gjRiHNPM+X+kcqh38tFo=5/2/2025 12:27:07 PM5/2/2025 12:27:07 PM</TimeStamp>
+        <ID>
+          <String>Fact Returns</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pocp6GtDR/VeodIlpz5DTTyQtW4=5/2/2025 1:38:41 PM5/2/2025 1:38:25 PM</TimeStamp>
+        <ID>
+          <String>Dim Campaign</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OJ4vhjHC85lopW9RXORBmYsiCm0=5/2/2025 4:56:14 PM5/2/2025 4:55:38 PM</TimeStamp>
+        <ID>
+          <String>Dim Sub Category</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RTwbEmiqObtYETcauxxgUAGxh2Y=5/2/2025 9:14:24 PM5/2/2025 9:14:16 PM</TimeStamp>
+        <ID>
+          <String>Dim Category</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Y3kaNCr3okN6y5Mt8fC1j1Vyaq0=5/2/2025 9:36:05 PM5/2/2025 1:55:06 PM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>kKL3i5oVC1Yg1RxRMFSoBbq3O1k=5/2/2025 10:48:38 PM5/2/2025 12:27:07 PMsrbMtSYNEr7OlbAE+NuwrNhW5ew=5/2/2025 12:27:07 PM5/2/2025 12:27:07 PM</TimeStamp>
+        <ID>
+          <String>Cube_Ecommerce_OLTP</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>aiHb+Y3ng/OJJMmfMtflL8G19Q8=5/1/2025 10:22:55 PM5/1/2025 10:22:55 PM</TimeStamp>
+      <ID>
+        <String>Ecommerce_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-05-02T17:18:43.903333Z</LastDeployed>
+</DeploymentSnapshot>
