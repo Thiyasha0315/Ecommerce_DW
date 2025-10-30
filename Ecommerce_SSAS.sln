@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Ecommerce_SSAS", "Ecommerce_SSAS\Ecommerce_SSAS.dwproj", "{9C6773B1-0410-0FA7-6B78-E525544A80F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C6773B1-0410-0FA7-6B78-E525544A80F4}.Development|Default.ActiveCfg = Development
+		{9C6773B1-0410-0FA7-6B78-E525544A80F4}.Development|Default.Build.0 = Development
+		{9C6773B1-0410-0FA7-6B78-E525544A80F4}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46835047-79DE-44A7-94D0-7E0B715D952F}
+	EndGlobalSection
+EndGlobal
