@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive - Sri Lanka Institute of Information Technology\\Documents\\DWBI\\Ecommerce_SSAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6773B1-0410-0FA7-6B78-E525544A80F4}|Ecommerce_SSAS\\Ecommerce_SSAS.dwproj|C:\\Users\\HP\\OneDrive - Sri Lanka Institute of Information Technology\\Documents\\DWBI\\Ecommerce_SSAS\\Ecommerce_SSAS\\Cube_Ecommerce_OLTP.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9C6773B1-0410-0FA7-6B78-E525544A80F4}|Ecommerce_SSAS\\Ecommerce_SSAS.dwproj|solutionrelative:Ecommerce_SSAS\\Cube_Ecommerce_OLTP.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6773B1-0410-0FA7-6B78-E525544A80F4}|Ecommerce_SSAS\\Ecommerce_SSAS.dwproj|C:\\Users\\HP\\OneDrive - Sri Lanka Institute of Information Technology\\Documents\\DWBI\\Ecommerce_SSAS\\Ecommerce_SSAS\\Eccomerce OLTP DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9C6773B1-0410-0FA7-6B78-E525544A80F4}|Ecommerce_SSAS\\Ecommerce_SSAS.dwproj|solutionrelative:Ecommerce_SSAS\\Eccomerce OLTP DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Eccomerce OLTP DW.dsv [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive - Sri Lanka Institute of Information Technology\\Documents\\DWBI\\Ecommerce_SSAS\\Ecommerce_SSAS\\Eccomerce OLTP DW.dsv",
+              "RelativeDocumentMoniker": "Ecommerce_SSAS\\Eccomerce OLTP DW.dsv",
+              "ToolTip": "C:\\Users\\HP\\OneDrive - Sri Lanka Institute of Information Technology\\Documents\\DWBI\\Ecommerce_SSAS\\Ecommerce_SSAS\\Eccomerce OLTP DW.dsv [Design]",
+              "RelativeToolTip": "Ecommerce_SSAS\\Eccomerce OLTP DW.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-02T16:58:04.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cube_Ecommerce_OLTP.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive - Sri Lanka Institute of Information Technology\\Documents\\DWBI\\Ecommerce_SSAS\\Ecommerce_SSAS\\Cube_Ecommerce_OLTP.cube",
+              "RelativeDocumentMoniker": "Ecommerce_SSAS\\Cube_Ecommerce_OLTP.cube",
+              "ToolTip": "C:\\Users\\HP\\OneDrive - Sri Lanka Institute of Information Technology\\Documents\\DWBI\\Ecommerce_SSAS\\Ecommerce_SSAS\\Cube_Ecommerce_OLTP.cube [Design]",
+              "RelativeToolTip": "Ecommerce_SSAS\\Cube_Ecommerce_OLTP.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-02T16:07:00.261Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
